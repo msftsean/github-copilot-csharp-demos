@@ -1,0 +1,4 @@
+1. Open ReviewSample.cs.
+2. Simulate a pull request with this code.
+3. Use Copilot to suggest improvements or identify issues.
+4. Discuss how Copilot enhances code review.

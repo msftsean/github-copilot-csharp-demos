@@ -1,0 +1,4 @@
+1. Open Main.cs and Helper.cs.
+2. Modify FormatMessage method.
+3. Observe Copilot suggestions in Main.cs based on changes.
+4. Discuss cross-file awareness.

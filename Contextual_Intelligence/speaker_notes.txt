@@ -1,0 +1,1 @@
+Highlight Copilot’s ability to understand context across multiple files and provide intelligent suggestions.

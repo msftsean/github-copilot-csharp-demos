@@ -1,0 +1,4 @@
+1. Open Program.cs in Visual Studio.
+2. Highlight the Add method.
+3. Ask GitHub Copilot to generate a docstring.
+4. Show how it improves code readability.

@@ -1,0 +1,1 @@
+Show how Copilot can assist in reviewing code by suggesting optimizations and identifying potential bugs.

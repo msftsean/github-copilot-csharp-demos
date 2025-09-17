@@ -1,0 +1,4 @@
+1. Start with an empty file.
+2. Prompt Copilot: 'Create a minimal ASP.NET Core web app.'
+3. Let Copilot generate the code.
+4. Run the app and show the output.

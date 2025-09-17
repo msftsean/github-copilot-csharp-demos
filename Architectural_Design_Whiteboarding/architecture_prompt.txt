@@ -1,0 +1,1 @@
+Design a microservices architecture for an e-commerce platform with services for catalog, orders, payments, and user management.

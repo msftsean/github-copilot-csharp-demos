@@ -1,0 +1,1 @@
+Explain how Copilot can help architects brainstorm and document platform designs using natural language prompts.
