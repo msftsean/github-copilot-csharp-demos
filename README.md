@@ -1,17 +1,76 @@
-# Save the README.md file in manageable sections to avoid formatting errors
+# GitHub Copilot C# Demos
 
-# Define each section of the README content
-sections = [
-    "# GitHub Copilot C# Demos\n\nThis repository contains a collection of C# demo projects designed for a developer session on GitHub Copilot. The objective is to showcase how AI can be integrated into the Software Development Lifecycle (SDLC) using GitHub Copilot. Each demo includes code samples, a presentation script, and speaker notes to guide presenters.\n",
-    
-    "## 📁 Repository Structure\n\n### 1. `Code Documentation`\n**Overview:** Demonstrates how GitHub Copilot can automatically generate XML documentation comments for C# methods and classes.\n- **Setup:** Open the solution in Visual Studio.\n- **Run:** Review the code and use Copilot to generate documentation.\n- **Presenter Guidance:** Follow the script to show before/after documentation and explain benefits.\n",
-    
-    "### 2. `Code Review`\n**Overview:** Simulates a pull request scenario where Copilot suggests improvements and identifies potential issues.\n- **Setup:** Open the solution and simulate a code change.\n- **Run:** Use Copilot to review and refactor code.\n- **Presenter Guidance:** Walk through Copilot suggestions and discuss code quality improvements.\n",
-    
-    "### 3. `Copilot Coding Agent`\n**Overview:** Uses natural language prompts to build a minimal ASP.NET Core web application.\n- **Setup:** Open the project in Visual Studio.\n- **Run:** Use prompts to generate controllers, views, and models.\n- **Presenter Guidance:** Demonstrate how Copilot builds the app step-by-step from prompts.\n",
-    
-    "### 4. `Contextual Intelligence`\n**Overview:** Highlights Copilot’s ability to understand and suggest code across multiple files.\n- **Setup:** Open the solution containing multiple classes and utility files.\n- **Run:** Modify a method and observe Copilot’s context-aware suggestions.\n- **Presenter Guidance:** Explain how Copilot maintains context across files.\n",
-    
-    "### 5. `Architectural Design Whiteboarding`\n**Overview:** Uses prompts to generate a microservices architecture for an e-commerce platform.\n- **Setup:** Open the prompt file and use it in Copilot-enabled IDE.\n- **Run:** Review the generated architecture components and diagrams.\n- **Presenter Guidance:** Discuss how AI assists in platform design and architectural planning.\n",
-    
-    "## 🚀 Getting Started\n\n1. Clone the repository:\n   
+This repository contains a collection of C# demo projects designed for a developer session on GitHub Copilot, hosted for NYC DDC. The objective is to showcase how GitHub Copilot can be integrated into the Software Development Lifecycle (SDLC) to enhance developer productivity, automate tasks, and support architectural design.
+
+## 📦 Repository Structure
+
+Each folder includes:
+- ✅ Sample C# code
+- 📜 Step-by-step demo script
+- 🗣️ Speaker notes for presenters
+
+### 1. Code Documentation
+**Overview:** Demonstrates how GitHub Copilot can automatically generate XML documentation comments for methods and classes.
+
+**Setup Instructions:**
+- Open the solution in Visual Studio
+- Navigate to the `CodeDocumentationDemo.cs` file
+- Begin typing method signatures and observe Copilot's suggestions
+
+**Presenter Guidance:**
+- Show a method without documentation
+- Use Copilot to generate XML comments
+- Discuss benefits for maintainability and readability
+
+---
+
+### 2. Code Review
+**Overview:** Simulates a pull request scenario where Copilot suggests improvements and identifies potential issues.
+
+**Setup Instructions:**
+- Open the `CodeReviewDemo.cs` file
+- Introduce intentional inefficiencies or bugs
+- Use Copilot to suggest fixes
+
+**Presenter Guidance:**
+- Highlight Copilot’s ability to refactor code
+- Discuss how it supports peer review and quality assurance
+
+---
+
+### 3. Copilot Coding Agent
+**Overview:** Uses natural language prompts to build a minimal ASP.NET Core web application.
+
+**Setup Instructions:**
+- Open the `CopilotAgentDemo.csproj` project
+- Start with a comment prompt like `// Create a basic ASP.NET Core web app with a homepage`
+- Let Copilot generate controllers, views, and routing
+
+**Presenter Guidance:**
+- Emphasize Copilot’s ability to scaffold applications
+- Discuss time savings and rapid prototyping
+
+---
+
+### 4. Contextual Intelligence
+**Overview:** Demonstrates Copilot’s awareness across multiple files and its ability to suggest contextually relevant code.
+
+**Setup Instructions:**
+- Open `Main.cs` and `Utils.cs`
+- Modify a function in `Utils.cs` and observe Copilot’s suggestions in `Main.cs`
+
+**Presenter Guidance:**
+- Show how Copilot understands project structure
+- Discuss implications for large codebases
+
+---
+
+### 5. Architectural Design Whiteboarding
+**Overview:** Uses prompts to generate architectural components for a microservices-based e-commerce platform.
+
+**Setup Instructions:**
+- Open `ArchitectureDesignPrompt.txt`
+- Paste prompt into a Copilot-enabled IDE
+- Review generated architecture classes and interfaces
+
+**Presenter Guidance:**
