@@ -74,3 +74,14 @@ Each folder includes:
 - Review generated architecture classes and interfaces
 
 **Presenter Guidance:**
+- Discuss how AI can assist in platform design
+- Highlight Copilot’s ability to generate boilerplate code for services
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/github-copilot-csharp-demos.git
+   cd github-copilot-csharp-demos
